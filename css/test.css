@@ -1,0 +1,24 @@
+.element {
+  border: 2px solid blue;
+}
+
+.element h1 {
+  font-weight: bold;
+  transition: all 0.25s;
+}
+
+.element h1:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.element p {
+  color: blue;
+  transition: all 0.25s;
+}
+
+.element p:hover {
+  text-decoration: underline;
+  color: red;
+}
+/*# sourceMappingURL=test.css.map */

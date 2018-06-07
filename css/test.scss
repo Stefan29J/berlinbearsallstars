@@ -1,0 +1,28 @@
+$color: rgb(0, 0, 255);
+
+@mixin fade-to($to) {
+    transition: all 0.25s;
+    &:hover {
+        text-decoration: underline;
+        color: $to;
+        }
+}
+
+.element {
+    border: 2px solid $color;
+
+
+
+    h1 {
+        font-weight: bold;
+
+
+        @include fade-to( rgb(255, 255, 0));
+        }
+
+    p {
+        color: $color;
+    
+        @include fade-to(rgb(255, 0, 0));
+    }
+}

@@ -1,0 +1,29 @@
+.service {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding - 15px;
+}
+.service-gray {
+    background-color: rgb(245,245,245);
+}
+.service-title {
+    font-weight: lighter;
+    color: rgb(30,30,30);
+}
+.service-icon {
+    color: rgb(230,230,230);
+    font-size: 700%;
+    text-align: center;
+    margin-top: -15%;
+    margin-bottom: -20%;
+    display: none;
+
+    @media ($bp-larger-than-phablet) {
+        display: block;
+        }
+    @media ($bp-larger-than-tablet) {
+        font-size: 1000%;
+        }
+    @media ($bp-larger-than-desktop) {
+        font-size: 1250%;
+        }
+    }

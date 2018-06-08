@@ -4,15 +4,23 @@
         <meta charset="utf-8" />
         <title>Eine erste Seite</title>
 
-        <link rel="stylesheet" type="text/css" href="./css/test.css" />
-
+        <style type="text/css">
+        .example {
+            color: red;
+            font-size: 400%;
+            font-weight: bold;
+        }
+        @media (max-width:500px) {
+            .example {
+                display: none;
+            }
+        }
+        </style>
     </head>
     <body>
-        <p>Hallo Welt</p>
-        <div class="element">
-            <h1>Hallo Welt</h1>
-            <p>Hallo Welt</p>
-            <p>Hallo Welt</p>
+        <div class="example">
+            <p>Hallo Welt!</p>
         </div>
+        <p>Test123</p>
     </body>
 </html>

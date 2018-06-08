@@ -1,0 +1,345 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+p {
+    color: rgb(117,117,117);
+}
+.cirlce-image {
+    width: 100%;
+    border-radius: 10000px;
+    border: 5px solid rgb(255,255,255);
+}
+/**
+* Header-Bereich
+*/
+.container {
+    max-width: 1040px;
+}
+.header {
+    height: 620px;
+    background-image: url("../img/Ahmetjay-new.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+}
+.header-navbar-links {
+    color: white;
+    float: right;
+    margin-top: 50px;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+.header-navbar-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.header-navbar-links a:hover {
+    text-decoration: underline;
+    color: rgb(200, 200, 200);
+}
+.header-brand-wrapper{
+    margin-top:50px;
+    float: left;
+}
+.header-brand {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-weight: blod;
+    font-size: 150%;
+    display: block;
+    margin-top: -10px;
+}
+.slogan {
+    padding-top: 120px;
+    color: rgb(255,255,255);
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+.slogan-bottom {
+    font-size: 250%;
+    font-weight: bold;
+}
+.solgan-button {
+    margin-top: 50px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 3px black;
+}      
+.solgan-button:hover {
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 3px black;
+}      
+
+/**
+* Service-Bereich
+*/
+
+.service {
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+.service-gray {
+    background-color: rgb(245,245,245);
+}
+.service-title {
+    font-weight: lighter;
+    color: rgb(30,30,30);
+}
+.service-icon {
+    color: rgb(230,230,230);
+    font-size: 1250%;
+    text-align: center;
+    margin-top: -15%;
+    margin-bottom: -20%;
+}
+
+/**
+*Features-Bereich
+*/
+.features {
+    padding-top: 100px;
+    padding-bottom: 85px;   
+}
+
+.feature-icon {
+    width: 70px;
+    height: 60px;
+    padding-top: 10px;
+    background-color: rgb(30,30,30);
+    border-radius: 35px;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.feature-icon:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+.feature-text {
+    margin-left: 90px;
+}
+.feature-text h5 {
+    margin-bottom: 8px;
+    font-size: 150%;
+    color: rgb(30,30,30);
+}
+/**
+* Clients
+*/
+.clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245,245,245);
+}
+.clients-heading {
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.clinets-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client-qoute {
+    border: 2px solid rgb(235,235,235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    border-radius: 3px;
+    font-size: 150%;
+    font-weight: lighter;
+    font-style: italic;
+    position: relative;
+}
+.client-qoute p {
+    margin-bottom: 5px;
+}
+.client-email-qoute {
+    font-style: normal;
+    font-size: 80%;
+    color: rgb(7, 3, 235);
+}
+.client-qoute::before, 
+.client-qoute::after {
+    content: "";
+    display: block;
+    width: 0px;  
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    
+}
+.client-qoute::before {
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(235,235,235);
+
+}
+.client-qoute::after {
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid rgb(255,255,255);
+}
+.client-qoute-left::before {
+    right: -30px;
+    left: auto;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(235,235,235);
+    
+}
+.client-qoute-left::after {
+    right: -26px;
+    left: auto;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-left: 13px solid rgb(255,255,255);
+}
+/**
+* Team
+*/
+.team {
+    padding-top: 100px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255,255,255)  
+}
+.team-heading {
+        font-weight: lighter;
+        margin-bottom: 0px;
+        text-align: center;
+}
+.team-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-image {
+    max-width: 70%;
+}
+.team-image-container {
+    text-align: center;
+}
+.team-name {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.team-name-desc{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.team-icons {
+    text-align: center;
+}
+.team-icon {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 1000000px;
+    display:inline-block;
+    text-align: center;
+}
+.team-icom .fa {
+    margin-top: 5px;
+
+}
+.team-slogan {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+/**
+* contact
+*/
+.contact {
+    background-color: rgb(118,143,197);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-heading {
+    color: rgb(255,255,255);
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.contact-subheading {
+    color: rgb(255,255,255);
+    font-weight: lighter;
+}
+.contact-methods{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    font-size: 12px;
+}
+.contact-methods li {
+    width: 50%;
+    float: left;
+    font-weight: lighter;
+    height: 3.5em;
+}
+.contact-methods .fa {
+    font-size: 150%;
+}
+.contact-icon {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+.contact-input {
+    width: 120%;
+    margin-bottom: 28px;
+    color: rgb(30,30,30);
+}
+.contact-input:focus,
+input.contact-input:focus {
+    border:1px solid rgb(30, 30, 30);
+    background-color: rgb(230,230,230);
+}
+.contact-message {
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+}
+input.contact-submit[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+.contact-form {
+    margin-bottom: 0px;
+}
+/**
+* Footer
+*/
+.footer {
+    background-color: rgb(118,143,197);
+    text-align: center;
+    font-weight: lighter;
+}
+.footer p {
+    color:rgb(255, 255, 255);
+}
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.footer-hr{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}

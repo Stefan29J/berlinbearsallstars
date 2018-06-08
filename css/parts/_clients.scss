@@ -1,0 +1,106 @@
+.clients {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding;
+    background-color: rgb(245,245,245);
+}
+.clients-heading {
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.clinets-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client-qoute {
+    border: 2px solid rgb(235,235,235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    font-size: 150%;
+    font-weight: lighter;
+    font-style: italic;
+    position: relative;
+
+    @media ($bp-larger-than-phablet) {
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+}
+.client-qoute p {
+    margin-bottom: 5px;
+}
+.client-email-qoute {
+    font-style: normal;
+    font-size: 80%;
+    color: rgb(7, 3, 235);
+}
+@media ($bp-larger-than-phablet) {
+    .client-qoute::before, 
+    .client-qoute::after {
+        content: "";
+        display: block;
+        width: 0px;  
+        height: 0px;
+        position: absolute;
+        top: 50%;  
+    }
+    .client-qoute::before {
+        left: -30px;
+        margin-top: -15px;
+        border: 15px solid transparent;
+        border-right: 15px solid rgb(235,235,235);
+    }
+    .client-qoute::after {
+        left: -26px;
+        margin-top: -13px;
+        border: 13px solid transparent;
+        border-right: 13px solid rgb(255,255,255);
+    }
+    .client-qoute-left::before {
+        right: -30px;
+        left: auto;
+        margin-top: -15px;
+        border: 15px solid transparent;
+        border-left: 15px solid rgb(235,235,235);   
+    }
+    .client-qoute-left::after {
+        right: -26px;
+        left: auto;
+        margin-top: -13px;
+        border: 13px solid transparent;
+        border-left: 13px solid rgb(255,255,255);
+    }
+}
+
+.client-image {
+    display: none;
+
+    @media ($bp-larger-than-phablet) {
+        display: block;
+        margin-top: 150px;
+    }
+    @media ($bp-larger-than-tablet) {
+        margin-top: 75px;
+    }
+    @media ($bp-larger-than-desktop) {
+        margin-top: 10px;
+    }
+    @media ($bp-larger-than-desktophd) {
+        margin-top: 0px;
+    }
+}
+.client-qoute-image {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+
+    @media ($bp-larger-than-phablet) {
+        display: none;
+    }
+}

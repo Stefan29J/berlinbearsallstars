@@ -1,0 +1,27 @@
+.side-menu {
+    background-color: rgb(240, 240, 240);
+    padding-top: 15px;
+
+    h3 {
+        padding-top:15px;
+    }
+}
+
+.side-menu-navigation {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+
+    li {
+        border-top: 1px solid rgb(220, 220, 220);
+        margin-bottom: 0px;
+    }
+
+    a {
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        text-decoration: none;
+        color: rgb(30, 30, 30);
+    }
+}

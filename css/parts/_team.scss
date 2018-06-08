@@ -1,0 +1,62 @@
+.team {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding - 15px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255,255,255)  
+}
+.team-heading {
+        font-weight: lighter;
+        margin-bottom: 0px;
+        text-align: center;
+}
+.team-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-image {
+    max-width: 20%;
+    margin-top: 25px;
+
+    @media ($bp-larger-than-phablet) {
+        max-width: 70%;
+        margin-top: 0px;
+    }
+}
+.team-image-container {
+    text-align: center;
+}
+.team-name {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    @media ($bp-larger-than-phablet) {
+        margin-top:10px;
+    }
+}
+.team-name-desc{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.team-icons {
+    text-align: center;
+}
+.team-icon {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 1000000px;
+    display:inline-block;
+    text-align: center;
+}
+.team-icom .fa {
+    margin-top: 5px;
+
+}
+.team-slogan {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}

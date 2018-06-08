@@ -1,0 +1,13 @@
+@import "../vendor/skeleton-sass/skeleton";
+
+$landing-padding: 100px;
+
+@import "parts/main";
+@import "parts/header";
+@import "parts/clients";
+@import "parts/team";
+@import "parts/features";
+@import "parts/service";
+@import "parts/contact";
+@import "parts/footer";
+@import "parts/sidenav";

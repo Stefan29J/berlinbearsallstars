@@ -1,0 +1,84 @@
+.header {
+    height: 620px;
+    background-image: url("../img/Ahmetjay-new.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+}
+.header-navbar-links {
+    color: white;
+    float: right;
+    margin-top: 50px;
+    display: none;
+
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+.header-navbar-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.header-navbar-links a:hover {
+    text-decoration: underline;
+    color: rgb(200, 200, 200);
+}
+.header-brand-wrapper{
+    margin-top:50px;
+    float: left;
+}
+.header-brand {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-weight: blod;
+    font-size: 150%;
+    display: block;
+    margin-top: -10px;
+}
+.slogan {
+    padding-top: 120px;
+    color: rgb(255,255,255);
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+.slogan-bottom {
+    font-size: 250%;
+    font-weight: bold;
+}
+.solgan-button {
+    margin-top: 50px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 3px black;
+}      
+.solgan-button:hover {
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 3px black;
+}
+
+#side-menu-trigger {
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 200%;
+    height: inherit;
+
+    @media ($bp-larger-than-tablet) {
+        display: none;
+    }
+}
